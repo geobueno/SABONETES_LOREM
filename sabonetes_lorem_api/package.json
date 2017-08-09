@@ -1,0 +1,23 @@
+{
+  "name": "sabonetes_lorem-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-mongo-db": "^2.0.3",
+    "mongodb": "^2.2.30"
+
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

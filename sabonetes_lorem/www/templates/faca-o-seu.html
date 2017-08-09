@@ -1,0 +1,45 @@
+<ion-view view-title= '<img class="logo_cabeca" src="img/logo_cabeca.png" />'>
+<ion-content class="pagina-faca-o-seu">
+
+  <img class= "logo_inicio" src="img/logo.png" alt="logo">
+
+  <text class="texto"><b>Seja o agente da terapia diária para sua pele.</b></text>
+
+  <div class="textos-formulario">
+    <p>Selecione seu tipo de pele e escolha o benefício desejado para ver a receita mais indicada.</p>
+  </div>
+
+  <div class="list">
+
+    <label class="item item-input item-select">
+<button class="button icon ion-plus-circled"  ng-click="enviarpele()"></button>
+      <div class="input-label">
+
+        Tipo de pele
+        </div>
+      <select  ng-model="resultado.peles">
+        <option name="pele" ng-repeat="pele in peles" ng-value="'{{pele}}'">
+          {{pele}}
+        </option>
+      </select>
+    </label>
+
+    <label class="item item-input item-select">
+      <button class="button icon ion-plus-circled"  ng-click="enviarbeneficios()"></button>
+
+      <div class="input-label">
+        Benefício
+      </div>
+      <select  ng-model="resultado.beneficios">
+        <option name="beneficios" ng-repeat="beneficios in beneficios" ng-value="'{{beneficios}}'">
+          {{beneficios}}
+        </option>
+      </select>
+    </label>
+  </div>
+
+  <button class="button button-block button-royal" type="submit" ng-click="enviar()">Faça seu sabonete!</button>
+
+  <img class= "fundo1" src="img/fundo1.png">
+</ion-content>
+</ion-view>

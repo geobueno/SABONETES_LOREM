@@ -1,0 +1,50 @@
+<!-- <ion-view view-title="Tire suas dúvidas"> -->
+<ion-view view-title='<img class="logo_cabeca" src="img/logo_cabeca.png" />'>
+
+  <ion-content class="pagina-tire-suas-duvidas has-header">
+
+    <div id="botao-apagar" class="botoes">
+      <button class="button button-assertive" ng-click="apagar()">
+        <ion-icon class="ion-trash-b"></ion-icon>
+      </button>
+    </div>
+
+    <div class="list card">
+        <div class="item item-body" ng-repeat="mensagem in mensagens">
+            <h2>{{mensagem.nome}}</h2>
+            <p>{{mensagem.conteudo}}</p>
+        </div>
+    </div>
+
+  </ion-content>
+
+  <div class="inputChat">
+
+    <div class="item item-input-inset">
+      <label class="item-input-wrapper">
+        <input type="text" placeholder="Digite sua mensagem..." ng-model="dados.conteudo">
+      </label>
+      <button class="button button-small" ng-click="mandarMensagem()">
+        <i class="icon ion-android-send"></i>
+      </button>
+    </div>
+
+  </div>
+
+</ion-view>
+
+
+
+
+<!--
+    </ion-content>
+
+    <div class="bar bar-footer">
+
+            <button class="button button-small" ng-click="enviar()">
+                Submit
+            </button>
+        </div>
+    </div>
+</ion-view>
+-->

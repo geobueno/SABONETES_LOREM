@@ -1,0 +1,39 @@
+<ion-view view-title='<img class="logo_cabeca" src="img/logo_cabeca.png" />'>
+  <!-- Podemos colocar um nome para a receita, se quisermos -->
+  <ion-content class="pagina-detalhe-receita">
+
+    <p class="atencao-alergia">ATENÇÃO: Caso tenha alergia a algum dos igredientes sugeridos, não utilizá-lo. Para mais dúvidas, entrar em contato conosco via a aba chat no menu.</p>
+
+    <p class="pagina-detalhe-receita-titulo">Material de apoio:</p>
+      <ul>
+        <li>1 Panela esmaltada ou de cerâmica;</li>
+        <li>1 Faca;</li>
+        <li>1 Dosador de líquidos (Becker);</li>
+        <li>1 Colher de plástico ou silicone;</li>
+        <li>&nbsp;&nbsp;  Formas de vidro, plástico ou silicone.</li>
+      </ul>
+
+    <p class="pagina-detalhe-receita-titulo">Ingredientes:</p>
+      <ul>
+          <li>1 kg de base glicerinada</li>
+          <li>70 ml de essência a sua escolha;</li>
+          <li>{{resultados.texto.oleo}};</li>
+          <li>{{resultados.texto.extrato}};</li>
+          <li>{{resultados.texto.subsseca}}</li>
+      </ul>
+
+    <p class="pagina-detalhe-receita-titulo">Preparo:</p>
+
+    <p class="alinhamento">1- Com a faca corte em pedaços pequenos toda sua base glicerinada;
+Coloque os pedacos dentro da panela esmaltada e leve ao fogo aquecendo a panela uniformemente;<br><br>
+2- Acompanhe sempre o processo de derretimento mexendo o conteudo até chegar ao estado liquido,
+quando estiver em estado líquido retire do fogo;<br><br>
+3- Acrescente todos os outros ingredientes indicados, misture bem para que fique homogêneo até obter a consistencia de mingau, para que as substâncias secas não decantem;<br><br>
+4- Despeje na forma com cuidado, espere esfriar e após um período de 24 horas de secagem;<br><br>
+5- Retire da forma e corte nos tamanhos desejados para uso.
+</p>
+
+    <p>Agora que você já sabe como fazer, é só procurar onde comprar o material!</p>
+    <button class="button button-block button-royal" type="submit" ng-click="irMapa()">Onde Comprar</button>
+  </ion-content>
+</ion-view>

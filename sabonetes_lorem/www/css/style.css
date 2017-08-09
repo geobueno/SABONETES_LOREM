@@ -1,0 +1,274 @@
+/*ajustes gerais*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #042318;
+}
+
+ion-header-bar.bar-stable.bar.bar-header{
+  background-color: #5f837e;
+}
+
+.bar.bar-stable .title{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+button.button.button-icon.button-clear.ion-navicon{
+  color: white;
+}
+
+i.icon{
+  color: white;
+}
+
+h1.title.title-left{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo_cabeca{
+  margin-top: 12px;
+  height: 20px;
+}
+
+.title.title-left.header-item{
+  color: white;
+  font-weight: bold;
+}
+
+a.item-content{
+  font-size: 16px;
+  color: #585b59;
+}
+
+button.button.button-block.button-royal{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  position: relative;
+  bottom: 0;
+  background-color: #5a3b6a;
+}
+
+.swiper-slide img{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/*inicio*/
+
+ion-content img.logo_inicio{
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+/* faça o seu*/
+
+.list {
+margin-bottom: 0px;
+}
+
+ion-content text.texto{
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #825012;
+  font-family: 'Gabriola', serif;
+  font-size: 42px;
+  line-height: 45px;
+  position: relative;
+}
+
+ion-content img.fundo1{
+  margin-top: -122%;
+  height: 90%;
+}
+
+button.button.icon.ion-plus-circled{
+  color: #483859;
+}
+
+.input-label{
+  color: #3f2006
+}
+
+.pagina-faca-o-seu{
+  padding: 10px 15px 5px 15px;
+  font-size: 16px;
+}
+
+label.item.item-input.item-select{
+  margin-bottom: 5px;
+  height: 35px;
+}
+
+.button.button-small.button-royal::after{
+  width: 100%;
+}
+.pagina-faca-o-seu-chamada{
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.textos-formulario{
+  position: relative;
+  font-size: 16px;
+  text-align: justify;
+  color: #023022;
+  margin: 8px;
+}
+
+/*ajustes página detalhe-receita*/
+.alinhamento{
+  text-align: justify;
+}
+
+.pagina-detalhe-receita{
+  padding: 15px;
+}
+
+.pagina-detalhe-receita h2{
+  color: #585b59;
+}
+
+.atencao-alergia{
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: justify;
+  margin: 0;
+}
+
+.pagina-detalhe-receita-titulo{
+  padding: 15px 0 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*ajustes página onde-comprar*/
+ng-map{
+  height: 600px;
+}
+
+/*ajustes página login-tire-suas-duvidas*/
+.pagina-login{
+  padding: 15px;
+}
+
+/*ajustes página tire-suas-duvidas*/
+.pagina-tire-suas-duvidas{
+  position: absolute;
+}
+
+.item.item-input-inset{
+  background-color: #694873;
+}
+
+.inputChat{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#botao-apagar{
+  margin: 10px 10px;
+  float: right;
+  position: relative;
+}
+
+.button.button-assertive{
+  width: 30%;
+}
+
+.list.card{
+  margin-top: 20px;
+  position: absolute;
+  top: 12%;
+}
+
+button.button.button-small{
+  background-color: #694873;
+  border: solid white 1px;
+}
+
+.list:last-child.card {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+/*ajustes página sobre*/
+.pagina-sobre{
+  padding: 5px;
+  font-size: 15px;
+  text-align: justify;
+}
+.sobre-nosso-significado{
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.sobre-nosso-significado span{
+  padding: 5px;
+  font-size: 14,5px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.sobre-os-benefícios p{
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: #3b0c7a;
+ font-weight: bold;
+
+}
+
+.sobre-os-benefícios li{
+  line-height: 30px;
+  padding: 5px;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 20px;
+  color: #3b0c7a;
+
+}
+
+.sobre-os-benefícios h4{
+  color: #3b0c7a;
+  font-weight: bold;
+
+}
+
+
+ion-content{
+  background-color: #eae5f2;
+}
+
+ion-content img.logo_sobre{
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.scroll {
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
